@@ -24,12 +24,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
-
-#dream-of-you {
-  width: 100%;
-  height: auto;
-  background-size: 300px;
+  padding: 60px 14px;
 }
 
 #about-content-area,
@@ -40,9 +35,8 @@
 }
 
 @media screen and (min-width: 64em) {
-  #dream-of-you {
-    width: 30%;
-    height: auto;
+  #dream-of-you-div {
+    padding: 0;
   }
 }
 
@@ -75,6 +69,11 @@ body {
   background-color: #652E73;
 }
 
+#dream-of-you {
+  width: 300px;
+  height: 300px;
+}
+
 #thaingar-picture {
   width: 300px;
   height: 300px;
@@ -96,6 +95,15 @@ body {
   }
   h2 {
     font-size: 1.5rem;
+  }
+  #dream-of-you-div {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #dream-of-you {
+    width: 400px;
+    height: 400px;
   }
   #thaingar-picture {
     width: 400px;
