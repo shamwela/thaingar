@@ -58,6 +58,16 @@ a:hover {
   text-decoration: underline;
 }
 
+body {
+  background-color: #BA55D3;
+}
+
+#thaingar-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+}
+
 @media (min-width: 43.75em) and (max-width: 64em) {
   body :not(.not-for-tablets) {
     display: none;
