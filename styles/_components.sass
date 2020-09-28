@@ -1,0 +1,38 @@
+// anything reusable such as buttons, navbars, cards etc
+
+// PHONE
+.not-for-tablets
+  display: none
+
+h1
+  font-size: $mf1
+
+h2
+  font-size: $mf2
+
+a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+
+
+// TABLET
+@media (min-width: 43.75em) and (max-width: 64em)
+  // Block contents on Tablets
+  body :not(.not-for-tablets) 
+    display: none
+  
+  // Say that this website is not for Tablets
+  .not-for-tablets
+    display: inline
+
+
+
+// DESKTOP
+@media screen and (min-width: 64em)
+  h1
+    font-size: $df1
+
+  h2
+    font-size: $df2
