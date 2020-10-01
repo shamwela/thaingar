@@ -9,8 +9,14 @@
   color: white;
 }
 
-#dream-of-you-div {
+#dream-of-you-div,
+#about-content-area,
+#contact-content-area {
+  width: 100%;
   height: 90vh;
+}
+
+#dream-of-you-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,8 +35,6 @@
 
 #about-content-area,
 #contact-content-area {
-  width: 100%;
-  height: 90vh;
   padding: 0 10px;
 }
 
@@ -50,19 +54,11 @@ h1, h2, p {
 
 h1 {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 1.3125rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 body {
