@@ -40,6 +40,9 @@
 
 @media screen and (min-width: 64em) {
   #dream-of-you-div {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     padding: 30px;
   }
 }
@@ -57,24 +60,23 @@ h2 {
   font-size: 1.3125rem;
 }
 
-.navbar-toggler, .navbar-toggler:focus {
-  outline: none;
-  border: none;
+img {
+  border-radius: 10px;
 }
 
 #logo {
   color: yellow;
 }
 
-#dream-of-you-img {
-  width: 300px;
-  height: 300px;
+.navbar-toggler,
+.navbar-toggler:focus {
+  outline: none;
+  border: none;
 }
 
+#dream-of-you-img,
 #thaingar-img {
   width: 300px;
-  height: 300px;
-  border-radius: 500px;
 }
 
 @media screen and (min-width: 64em) {
@@ -84,18 +86,9 @@ h2 {
   h2 {
     font-size: 1.5rem;
   }
-  #dream-of-you-div {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  #dream-of-you-img {
-    width: 400px;
-    height: 400px;
-  }
+  #dream-of-you-img,
   #thaingar-img {
     width: 400px;
-    height: 400px;
   }
 }
 /*# sourceMappingURL=main.css.map */
