@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Fira Sans", sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1.0625rem;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 #dream-of-you-div,
@@ -48,12 +48,17 @@
 }
 
 body {
-  background-color: #652e73;
+  background-color: #67188C;
+}
+
+#logo,
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: 700;
 }
 
 h2 {
@@ -65,7 +70,7 @@ img {
 }
 
 #logo {
-  color: #ffff00;
+  color: #FFFF00;
 }
 
 .navbar-toggler,
